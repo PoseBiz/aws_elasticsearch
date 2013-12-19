@@ -188,6 +188,8 @@ path.plugins: <%= node[:elasticsearch][:path][:plugins] %>
 #
 # bootstrap.mlockall: true
 
+bootstrap.mlockall: true
+
 # Make sure that the ES_MIN_MEM and ES_MAX_MEM environment variables are set
 # to the same value, and that the machine has enough memory to allocate
 # for ElasticSearch, leaving enough memory for the operating system itself.
